@@ -1,0 +1,239 @@
+/*
+--------------
+FONTS
+--------------
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/*
+--------------
+GENERAL FIXES & SETTINGS
+--------------
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+html {
+	background-color: #09001E;
+}
+
+body {
+	background-color: white;
+}
+
+#frame-left {
+	float: left;
+}
+
+#frame-right {
+	float: right;
+}
+
+/*
+--------------
+TYPOGRAPHY
+--------------
+*/
+
+
+section {
+	text-align: center;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-weight: 700;
+}
+
+h2 {
+	color: #09001E;
+	font-weight: 700;
+}
+
+p {
+	color: #09001E;
+	font-family: Lato, sans-serif;
+}
+
+hr {
+	border: 0em;
+	background: linear-gradient(to right, #00CFFF, #58009D);
+	height: 0.3em;
+	width: 5.5em;	
+
+	margin: 1.5em auto;
+}
+
+
+
+/* LINKS */
+
+/* unvisited, visited, hover and selected */
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
+}
+
+.nav-bar-links a:hover,
+.footer-bar-links a:hover {
+  color: #00CFFF;
+}
+
+
+/*
+--------------
+HEADER
+--------------
+*/
+
+header {
+	position: absolute;
+	width: 100%;
+}
+
+#nav-bar {
+	margin: auto;
+	text-align: center;
+}
+
+#nav-bar-center {
+	display: inline-block;
+}
+
+#nav-bar-left {
+	display: inline-block;
+	float: left;
+}
+
+#nav-bar-right {
+	display: inline-block;
+	float: right;
+}
+
+.nav-bar-links a {
+	text-transform: uppercase;
+}
+
+
+/*
+--------------
+COVER
+--------------
+*/
+
+#cover {
+	background-color: rgba(9,0,30,0.8);
+	background-image: url(img/galint-cover.jpg);
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+
+#cover-frame {
+	position: absolute;
+	margin-top: -2.2em;
+	width: 100%;
+}
+
+
+/*
+--------------
+INTRODUCTION
+--------------
+*/
+
+#introduction {
+	background-color: white;
+}
+
+
+/*
+--------------
+PROJECTS
+--------------
+*/
+
+#bobc-project-tile {
+	background-color: rgba(0,78,175,0.8);
+	background-image: url(img/bobc-project-cover.jpg);
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-origin: right;
+}
+
+#pwh-project-tile {
+	background-color: rgba(158,0,53,0.9);
+	background-image: url(img/pwh-project-cover.jpg);
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-origin: right;
+}
+
+.tile-contents h2,
+.tile-contents p {
+	color: white;
+}
+
+
+/*
+--------------
+STATS
+--------------
+*/
+
+#stats {
+	background-color: white;
+}
+
+.stats-number {
+	font-family: 'Montserrat', sans-serif;
+	color: #09001E;
+	font-weight: 700;	
+}
+
+
+/*
+--------------
+FOOTER
+--------------
+*/
+
+footer {
+	text-align: center;
+	background-color: #09001E;
+}
+
+#footer-frame {
+	position: absolute;
+	margin-top: -0.3em;
+	width: 100%;
+}
+
+.footer-bar-links {
+	display: inline-block;
+}
+
+.footer-bar-links a {
+	text-transform: uppercase;
+}
+
+#footer-bar-text {
+	color: #6F6F6F;
+}
+

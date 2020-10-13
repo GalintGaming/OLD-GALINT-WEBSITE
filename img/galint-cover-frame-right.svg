@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="25px" viewBox="0 0 160 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Path 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HOME---ATTEMPT-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="GALINT---HOME-PAGE---MOBILE" transform="translate(-160.000000, -360.000000)" fill="#FFFFFF">
+            <g id="COVER" transform="translate(-1.000000, 0.000000)">
+                <g id="COVER-FRAME" transform="translate(1.000000, 360.000000)">
+                    <path d="M201.546353,0 C227.051015,0 226.972354,22 252.631717,22 C269.737959,22 292.194053,22 320,22 L320,25 L160,25 L160,0 C170.69446,0 184.543245,0 201.546353,0 Z" id="Path-2" transform="translate(240.000000, 12.500000) scale(-1, 1) translate(-240.000000, -12.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
