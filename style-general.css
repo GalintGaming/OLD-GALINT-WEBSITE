@@ -185,6 +185,14 @@ PROJECTS
 	background-origin: right;
 }
 
+#gmo-project-tile {
+	background-color: rgba(255, 255, 255, 0.9);
+	background-image: url(img/gmo-project-cover.png);
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-origin: right;
+}
+
 .tile-contents h2,
 .tile-contents p {
 	color: white;
@@ -236,4 +244,3 @@ footer {
 #footer-bar-text {
 	color: #6F6F6F;
 }
-

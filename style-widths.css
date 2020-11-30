@@ -108,6 +108,7 @@
 
 	#introduction-text {
 		margin-top: 3em;
+		margin-bottoM: 3em;
 	}
 
 	#introduction-text h2 {
@@ -121,6 +122,15 @@
 		margin: auto;
 	}
 
+	#disclaimer-text {
+		margin-top: 3em;
+		margin-bottoM: 3em;
+	}
+
+	#disclaimer-text h2 {
+		font-size: 2em;
+	}
+
 
 @media only screen and (min-width: 575px) {
 
@@ -129,7 +139,8 @@
 	}
 
 	#introduction-text {
-		margin-top: 4.5em;
+		margin-top: 2em;
+		margin-bottom: 2em;
 	}
 
 	#introduction-text h2 {
@@ -143,6 +154,14 @@
 		margin: auto;
 	}
 
+	#disclaimer-text {
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+
+	#disclaimer-text h2 {
+		font-size: 2.8em;
+	}
 }
 
 	/* --- PROJECTS --- */
@@ -172,12 +191,16 @@
 @media only screen and (min-width: 575px) {
 
 	.project-tile {
-		width: 50%;
+		width: 33.333%;
 		height: 25em;
 		display: inline-block;
 	}
 
 	#bobc-project-tile {
+		float: left;
+	}
+
+	#gmo-project-tile {
 		float: left;
 	}
 
@@ -203,7 +226,6 @@
 	}
 
 }
-
 
 	/* --- STATS --- */
 
